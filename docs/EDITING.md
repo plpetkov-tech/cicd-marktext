@@ -117,3 +117,4 @@ To quickly find a keyword in your document press <kbd>CmdOrCtrl</kbd>+<kbd>F</kb
 **Search in opened folder:**
 
 MarkText provides a build-in filesystem explorer (tree view) with a fast file searcher. Type a keyword in the search bar and select the needed options like regex or case-insensitive search. That's all, now MarkText will search all markdown files in the opened root directory.
+
