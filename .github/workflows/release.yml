@@ -68,6 +68,9 @@ jobs:
           yarn run lint
           yarn run validate-licenses
 
+      - name: Check for vulnerabilities
+        run: yarn yarn-audit-fix
+
       - name: Run unit and E2E tests
         uses: GabrielBB/xvfb-action@v1
         with:
@@ -157,6 +160,9 @@ jobs:
         run: |
           yarn run lint
           yarn run validate-licenses
+
+      - name: Check for vulnerabilities
+        run: yarn yarn-audit-fix
 
       - name: Run unit and E2E tests
         run: yarn run test
